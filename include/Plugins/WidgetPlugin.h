@@ -38,7 +38,7 @@ public:
 }
 }
 
-#define WIDGETPLUGIN_IID "org.Datall.core.widgetplugin"
+#define WIDGETPLUGIN_IID "org.Eagle.core.widgetplugin"
 Q_DECLARE_INTERFACE(Eagle::Gui::WidgetPlugin, WIDGETPLUGIN_IID)
 
 

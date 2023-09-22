@@ -1,0 +1,9 @@
+{
+    "vendor": "Eagle",
+    "name": "EventSystem",
+    "version": 0.1,
+    "build":1,
+    "index": 0,
+    "type": "Base",
+    "description": "Event System plugin."
+} 

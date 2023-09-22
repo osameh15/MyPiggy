@@ -10,11 +10,11 @@
  * @date Sep 2023
  */
 
-#include <QVariantMap>
-
 #include "Plugin.h"
 
-namespace Datall
+#include <QVariantMap>
+
+namespace Eagle
 {
 namespace Device
 {
@@ -61,7 +61,7 @@ public:
 }
 }
 
-Q_DECLARE_INTERFACE(Datall::Device::DevicePlugin, PLUGIN_IID)
+Q_DECLARE_INTERFACE(Eagle::Device::DevicePlugin, PLUGIN_IID)
 
 
 #endif // DEVICEPLUGIN_H

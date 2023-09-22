@@ -55,8 +55,8 @@
         <string>&amp;No</string>
        </property>
        <property name="icon">
-        <iconset resource="../../../resources/res.qrc">
-         <normaloff>:/BreezeDark/Icons/BreezeDark/dialog_cancel.svg</normaloff>:/BreezeDark/Icons/BreezeDark/dialog_cancel.svg</iconset>
+        <iconset resource="../../../res/res.qrc">
+         <normaloff>:/BreezeLight/Icons/BreezeLight/dialog_cancel.svg</normaloff>:/BreezeLight/Icons/BreezeLight/dialog_cancel.svg</iconset>
        </property>
       </widget>
      </item>
@@ -66,8 +66,8 @@
         <string>&amp;Discard</string>
        </property>
        <property name="icon">
-        <iconset resource="../../../resources/res.qrc">
-         <normaloff>:/Icons/delete.svg</normaloff>:/Icons/delete.svg</iconset>
+        <iconset resource="../../../res/res.qrc">
+         <normaloff>:/BreezeLight/Icons/BreezeLight/dialog_no.svg</normaloff>:/BreezeLight/Icons/BreezeLight/dialog_no.svg</iconset>
        </property>
       </widget>
      </item>
@@ -77,8 +77,8 @@
         <string>&amp;Yes</string>
        </property>
        <property name="icon">
-        <iconset resource="../../Preferences/resources/resource_preferences.qrc">
-         <normaloff>:/check-state.png</normaloff>:/check-state.png</iconset>
+        <iconset resource="../../../res/res.qrc">
+         <normaloff>:/BreezeLight/Icons/BreezeLight/dialog_ok.svg</normaloff>:/BreezeLight/Icons/BreezeLight/dialog_ok.svg</iconset>
        </property>
       </widget>
      </item>
@@ -87,8 +87,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../../Preferences/resources/resource_preferences.qrc"/>
-  <include location="../../../resources/res.qrc"/>
+  <include location="../../../res/res.qrc"/>
  </resources>
  <connections/>
 </ui>

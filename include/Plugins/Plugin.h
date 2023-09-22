@@ -22,7 +22,6 @@ class PluginManager;
  */
 class Plugin: public QObject
 {
-
 public slots:
     /**
      * @brief Initializes the plugin.
@@ -31,7 +30,7 @@ public slots:
 };
 }
 
-#define PLUGIN_IID "org.Datall.visage.plugin"
+#define PLUGIN_IID "org.Eagle.visage.plugin"
 Q_DECLARE_INTERFACE(Eagle::Plugin, PLUGIN_IID)
 
 #endif // PLUGIN_H

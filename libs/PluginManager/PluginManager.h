@@ -112,7 +112,7 @@ public:
     /**
      * @brief Gets the information of a successfully loaded plugin.
      * @param name The name of plugin to search for.
-     * @param info a pointer to a \ref Datall::PluginInfo that will hold the result. Can be null.
+     * @param info a pointer to a \ref Eagle::PluginInfo that will hold the result. Can be null.
      * @return Success if plugin found.
      */
     bool  getPlugin(const QString &name, PluginInfo *info) const

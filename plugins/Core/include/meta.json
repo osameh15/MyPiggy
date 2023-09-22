@@ -1,0 +1,9 @@
+{
+    "vendor": "Eagle",
+    "name": "Core",
+    "version": 0.1,
+    "build":1,
+    "index": 0,
+    "type": "Base",
+    "description": "Core service plugin."
+} 

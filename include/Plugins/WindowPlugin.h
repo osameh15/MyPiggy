@@ -49,7 +49,7 @@ public:
 }
 }
 
-#define WINDOWPLUGIN_IID "org.Datall.core.windowplugin"
+#define WINDOWPLUGIN_IID "org.Eagle.core.windowplugin"
 Q_DECLARE_INTERFACE(Eagle::Gui::WindowPlugin, WINDOWPLUGIN_IID)
 
 

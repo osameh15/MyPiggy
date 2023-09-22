@@ -5,7 +5,7 @@ project(MyPiggy LANGUAGES CXX VERSION 0.9.0)
 
 #======================= Options =======================#
 option(OPTIMIZE_MODE "Compile with optimize flags" OFF)
-option (DATALL_BUILD_DOCS "Build documentation using Doxygen." OFF)
+option (EAGLE_BUILD_DOCS "Build documentation using Doxygen." OFF)
 
 if (OPTIMIZE_MODE)
   set( CMAKE_CXX_FLAGS "-Wall -m64 -Ofast -mavx2 -march=native" )
@@ -19,7 +19,7 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_PREFIX_PATH $ENV{QTDIR})
 set(CMAKE_CXX_FLAGS "-fPIC")
-set(DATALL_VERSION ${CMAKE_PROJECT_VERSION})
+set(EAGLE_VERSION ${CMAKE_PROJECT_VERSION})
 set(DIST_PATH ${PROJECT_BINARY_DIR}/dist)
 set(DIST_PLUGINS_PATH ${DIST_PATH}/plugins)
 set(DIST_RESOURCES_PATH ${DIST_PATH}/res)
@@ -43,7 +43,7 @@ get_git_head_revision(GIT_REFSPEC GIT_SHA1)
 string(TIMESTAMP BUILD_TIME "%Y%m%d%H%M%S")
 message ("BUILD TIME: ${BUILD_TIME}")
 message ("GIT SHA1: ${GIT_SHA1}")
-message ("Version: ${DATALL_VERSION}")
+message ("Version: ${EAGLE_VERSION}")
 configure_file("${CMAKE_CURRENT_SOURCE_DIR}/src/BuildInfo.cpp.in" "${CMAKE_CURRENT_BINARY_DIR}/src/BuildInfo.cpp" @ONLY)
 
 #======================= Git =======================#
@@ -72,6 +72,7 @@ endif()
 message("This is a ${BINARY_REVISION} binary revision.")
 
 #=================== Thirdparties ====================#
+add_subdirectory(thirdparties)
 add_subdirectory(libs)
 set(BASE_LINKS Utility PluginManager Registry)
 
@@ -104,7 +105,9 @@ set(${PROJECT_NAME}_UIS
 )
 
 #=======================  Resources Library =======================#
-set(RESOURCES_DIR "${CMAKE_SOURCE_DIR}/res")
+set(RESOURCES_DIR
+        res/res.qrc
+    )
 
 add_library(MyPiggy-qrc OBJECT EXCLUDE_FROM_ALL ${RESOURCES_DIR})
 set_target_properties(MyPiggy-qrc  PROPERTIES AUTORCC ON)
@@ -137,6 +140,8 @@ include_directories(
     libs/PluginManager
     libs/Registry
     libs/Utility/include
+    thirdparties/Qt-Advanced-Docking-System
+    thirdparties/Qt-OSD-Notification
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE

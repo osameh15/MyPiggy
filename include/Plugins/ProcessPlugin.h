@@ -36,7 +36,7 @@ public:
 }
 }
 
-#define PROCESSPLUGIN_IID "org.Datall.core.processplugin"
+#define PROCESSPLUGIN_IID "org.Eagle.core.processplugin"
 Q_DECLARE_INTERFACE(Eagle::Process::ProcessPlugin, PROCESSPLUGIN_IID)
 
 

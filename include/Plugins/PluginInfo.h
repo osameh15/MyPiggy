@@ -4,7 +4,7 @@
 /**
  * Copyright (c) Gubras, Inc.
  *
- * @brief Holds the information (meta data) of a plugin. see \ref Datall::Plugin for more details.
+ * @brief Holds the information (meta data) of a plugin. see \ref Eagle::Plugin for more details.
  *
  * @author Eagle_Ir
  * @date Sep 2023
@@ -17,19 +17,19 @@ namespace Eagle
 class Plugin;
 
 /**
- * @brief Holds the information (meta data) of a plugin. see \ref Datall::Plugin for more details.
+ * @brief Holds the information (meta data) of a plugin. see \ref Eagle::Plugin for more details.
  */
 struct PluginInfo
 {
     /**
-     *  @brief Creates a default \ref Datall::PluginInfo.
+     *  @brief Creates a default \ref Eagle::PluginInfo.
      */
     PluginInfo()
     {
     }
 
     /**
-     *  @brief Creates a \ref Datall::PluginInfo with the provided args.
+     *  @brief Creates a \ref Eagle::PluginInfo with the provided args.
      *  @param path: Absolute path to the plugin library file.
      *  @param vendor: Vendor name of the plugin.
      *  @param name: Name of the plugin.

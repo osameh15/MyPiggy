@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.65 511.65">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafafa;
+      }
+
+      .cls-2 {
+        fill: #f44336;
+      }
+    </style>
+  </defs>
+  <circle class="cls-2" cx="255.82" cy="255.82" r="255.82"/>
+  <rect class="cls-1" x="227.78" y="110.65" width="55.39" height="290.68" rx="27.7" ry="27.7" transform="translate(617.14 256.34) rotate(135)"/>
+  <rect class="cls-1" x="227.78" y="110.65" width="55.39" height="290.68" rx="27.7" ry="27.7" transform="translate(271.5 617.29) rotate(-137.59)"/>
+</svg>
