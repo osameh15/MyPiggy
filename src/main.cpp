@@ -35,12 +35,12 @@ int main(int argc, char* argv[])
     app = new QApplication(argc, argv);
     app->setWindowIcon(QIcon(":/Logo/logo.ico"));
 
-    Datall::Registry::instance();
-    Datall::PluginManager::getInstance().loadPlugins(PLUGINS_DIR);
+    Eagle::Registry::instance();
+    Eagle::PluginManager::getInstance().loadPlugins(PLUGINS_DIR);
 
     return_from_event_loop_code = app->exec();
 
-    Datall::PluginManager::getInstance().unloadPlugins();
+    Eagle::PluginManager::getInstance().unloadPlugins();
 
     delete app;
 

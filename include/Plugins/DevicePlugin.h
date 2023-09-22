@@ -6,8 +6,8 @@
  *
  * @brief The DevicePlugin class is an abstract base class for device plugins.
  *
- * @author Datall Co, Eagle_Ir
- * @date Jan 2023
+ * @author Eagle_Ir
+ * @date Sep 2023
  */
 
 #include <QVariantMap>

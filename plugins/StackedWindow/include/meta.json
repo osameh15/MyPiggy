@@ -1,0 +1,9 @@
+{
+    "vendor": "Datall",
+    "name": "StackedWindow",
+    "version": 0.1,
+    "build":1,
+    "index": 2,
+    "type": "Base",
+    "description": "Stacked window plugin."
+} 

@@ -6,13 +6,13 @@
  *
  * @brief The ProcessPlugin class is an abstract base class for process plugins.
  *
- * @author Datall Co, Eagle_Ir
- * @date Jan 2023
+ * @author Eagle_Ir
+ * @date Sep 2023
  */
 
 #include "Plugin.h"
 
-namespace Datall
+namespace Eagle
 {
 namespace Process
 {
@@ -37,7 +37,7 @@ public:
 }
 
 #define PROCESSPLUGIN_IID "org.Datall.core.processplugin"
-Q_DECLARE_INTERFACE(Datall::Process::ProcessPlugin, PROCESSPLUGIN_IID)
+Q_DECLARE_INTERFACE(Eagle::Process::ProcessPlugin, PROCESSPLUGIN_IID)
 
 
 #endif // PROCESSPLUGIN_H

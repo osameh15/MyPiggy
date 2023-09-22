@@ -6,15 +6,15 @@
  *
  * @brief The WidgetPlugin class is an abstract base class for widget plugins.
  *
- * @author Datall Co, Eagle_Ir
- * @date Jan 2023
+ * @author Eagle_Ir
+ * @date Sep 2023
  */
 
 #include "Plugin.h"
 
 #include <QWidget>
 
-namespace Datall
+namespace Eagle
 {
 namespace Gui
 {
@@ -39,7 +39,7 @@ public:
 }
 
 #define WIDGETPLUGIN_IID "org.Datall.core.widgetplugin"
-Q_DECLARE_INTERFACE(Datall::Gui::WidgetPlugin, WIDGETPLUGIN_IID)
+Q_DECLARE_INTERFACE(Eagle::Gui::WidgetPlugin, WIDGETPLUGIN_IID)
 
 
 #endif // WIDGETPLUGIN_H

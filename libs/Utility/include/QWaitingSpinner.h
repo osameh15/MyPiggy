@@ -8,8 +8,8 @@
  *
  * @brief The QWaitingSpinner class represents a custom widget for displaying a waiting spinner.
  *
- * @author Datall Co, Eagle_Ir
- * @date July 2023
+ * @author Eagle_Ir
+ * @date Sep 2023
  */
 
 #include <QWidget>

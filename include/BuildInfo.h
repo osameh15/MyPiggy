@@ -6,8 +6,8 @@
  *
  * @brief The BuildInfo class provides static methods to retrieve build information.
  *
- * @author Datall Co, Eagle_Ir
- * @date Jan 2023
+ * @author Eagle_Ir
+ * @date Sep 2023
  */
 
 #include <QString>

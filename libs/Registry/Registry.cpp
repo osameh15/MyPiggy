@@ -10,7 +10,7 @@
 #include <QGuiApplication>
 #include <QStyleHints>
 
-namespace Datall
+namespace Eagle
 {
 Registry       *Registry::m_instance = nullptr;
 std::once_flag  Registry::m_initInstanceFlag;

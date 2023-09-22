@@ -6,8 +6,8 @@
  *
  * @brief DaElement class. A Standard element class inherited QObject to use in
  *
- * @author Datall Co, Eagle_Ir
- * @date Apr 2023
+ * @author Eagle_Ir
+ * @date Sep 2023
  */
 
 #include <QJsonDocument>

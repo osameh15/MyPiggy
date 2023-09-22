@@ -5,7 +5,7 @@
 #include <iostream>
 #include <QTimer>
 
-namespace Datall
+namespace Eagle
 {
 SplashScreenPlugin::SplashScreenPlugin()
 {

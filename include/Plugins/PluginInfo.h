@@ -6,13 +6,13 @@
  *
  * @brief Holds the information (meta data) of a plugin. see \ref Datall::Plugin for more details.
  *
- * @author Datall Co, Eagle_Ir
- * @date Jan 2023
+ * @author Eagle_Ir
+ * @date Sep 2023
  */
 
 #include <QSharedPointer>
 
-namespace Datall
+namespace Eagle
 {
 class Plugin;
 

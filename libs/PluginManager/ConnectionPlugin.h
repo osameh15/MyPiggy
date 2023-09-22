@@ -6,15 +6,15 @@
  *
  * @brief The ConnectionPlugin class is an abstract base class for connection plugins.
  *
- * @author Datall Co, Eagle_Ir
- * @date Jan 2023
+ * @author Eagle_Ir
+ * @date Sep 2023
  */
 
 #include "Definitions.h"
 
 #include <Plugin.h>
 
-namespace Datall
+namespace Eagle
 {
 /**
  * @brief The ConnectionPlugin class is an abstract base class for connection plugins.
@@ -95,7 +95,7 @@ signals:
 }
 
 #define CONNECTIONPLUGIN_IID "org.Datall.core.connectionplugin"
-Q_DECLARE_INTERFACE(Datall::ConnectionPlugin, PLUGIN_IID)
+Q_DECLARE_INTERFACE(Eagle::ConnectionPlugin, PLUGIN_IID)
 
 
 #endif

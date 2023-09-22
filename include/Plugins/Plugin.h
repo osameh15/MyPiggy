@@ -6,13 +6,13 @@
  *
  * @brief Plugin class is the base class of all plugins. All plugins must inherit this class and implement the required functions.
  *
- * @author Datall Co, Eagle_Ir
- * @date Jan 2023
+ * @author Eagle_Ir
+ * @date Sep 2023
  */
 
 #include <QtPlugin>
 
-namespace Datall
+namespace Eagle
 {
 class PluginManager;
 
@@ -27,11 +27,11 @@ public slots:
     /**
      * @brief Initializes the plugin.
      */
-    virtual bool  init(const Datall::PluginManager *manager) = 0;
+    virtual bool  init(const PluginManager *manager) = 0;
 };
 }
 
 #define PLUGIN_IID "org.Datall.visage.plugin"
-Q_DECLARE_INTERFACE(Datall::Plugin, PLUGIN_IID)
+Q_DECLARE_INTERFACE(Eagle::Plugin, PLUGIN_IID)
 
 #endif // PLUGIN_H

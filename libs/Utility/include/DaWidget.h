@@ -6,8 +6,8 @@
  *
  * @brief DaWidget class. A Standard widget class inherited QWidget to use in
  *
- * @author Datall Co, Eagle_Ir
- * @date May 2023
+ * @author Eagle_Ir
+ * @date Sep 2023
  */
 
 #include <QWidget>

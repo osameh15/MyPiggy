@@ -187,7 +187,7 @@ static constexpr auto  RESTART_CODE = 1998;
 const qreal zoomMultiplier = qSqrt(1.5);
 const qreal  zoomInit = 1;
 
-namespace Datall
+namespace Eagle
 {
 enum DataMode
 {

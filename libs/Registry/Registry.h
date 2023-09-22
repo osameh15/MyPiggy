@@ -6,8 +6,8 @@
  *
  * @brief The Registry class provides centralized management of application-wide resources.
  *
- * @author Datall Co, Eagle_Ir
- * @date Aug 2023
+ * @author Eagle_Ir
+ * @date Sep 2023
  */
 
 #include <QMap>
@@ -27,7 +27,7 @@
 #define REGISTRY_API
 #endif
 
-namespace Datall
+namespace Eagle
 {
 /**
  * @brief The Registry class provides centralized management of application-wide resources.

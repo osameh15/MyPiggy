@@ -10,7 +10,7 @@
 #include <QJsonArray>
 #include <iostream>
 
-namespace Datall
+namespace Eagle
 {
 PluginManager  *PluginManager::instance = nullptr;
 std::once_flag  PluginManager::initInstanceFlag;

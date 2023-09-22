@@ -6,8 +6,8 @@
  *
  * @brief The PluginManager class is responsible for loading plugins at runtime and managing them.
  *
- * @author Datall Co, Eagle_Ir
- * @date Apr 2023
+ * @author Eagle_Ir
+ * @date Sep 2023
  */
 
 #include "PluginInfo.h"
@@ -20,7 +20,7 @@
 
 class QPluginLoader;
 
-namespace Datall
+namespace Eagle
 {
 class Plugin;
 
