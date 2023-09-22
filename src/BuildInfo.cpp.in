@@ -1,0 +1,33 @@
+#include "BuildInfo.h"
+
+#include <QDateTime>
+
+#define GIT_SHA1 "@GIT_SHA1@"
+#define BUILD_TIME "@BUILD_TIME@"
+#define VERSION "@DATALL_VERSION@"
+
+BuildInfo::BuildInfo()
+{
+}
+
+QString  BuildInfo::getBuildTime()
+{
+    QDateTime  dateTime2 = QDateTime::fromString(BUILD_TIME, "yyyyMMddhhmmss");
+
+    return dateTime2.toString("dddd, d MMMM yyyy hh:mm:ss");
+}
+
+QString  BuildInfo::getGitSHA1()
+{
+    return QString::fromStdString(GIT_SHA1);
+}
+
+QString  BuildInfo::getVersion()
+{
+    return QString::fromStdString(VERSION);
+}
+
+QString  BuildInfo::getQtVersion()
+{
+    return QString(QT_VERSION_STR);
+}
