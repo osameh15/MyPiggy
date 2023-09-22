@@ -1,0 +1,9 @@
+{
+    "vendor": "Eagle",
+    "name": "SplashScreen",
+    "version": 0.1,
+    "build":1,
+    "index": 1,
+    "type": "Base",
+    "description": "Splash screen plugin."
+} 

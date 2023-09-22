@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ExitDialog</class>
+ <widget class="QDialog" name="ExitDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>120</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Exit</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="lExit">
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Exit?</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lExitText">
+     <property name="text">
+      <string>Are you sure you want to exit the Visage?</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pbCancel">
+       <property name="text">
+        <string>&amp;No</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../../res/res.qrc">
+         <normaloff>:/BreezeLight/Icons/BreezeLight/dialog_cancel.svg</normaloff>:/BreezeLight/Icons/BreezeLight/dialog_cancel.svg</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbDiscard">
+       <property name="text">
+        <string>&amp;Discard</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../../res/res.qrc">
+         <normaloff>:/BreezeLight/Icons/BreezeLight/dialog_no.svg</normaloff>:/BreezeLight/Icons/BreezeLight/dialog_no.svg</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbOk">
+       <property name="text">
+        <string>&amp;Yes</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../../res/res.qrc">
+         <normaloff>:/BreezeLight/Icons/BreezeLight/dialog_ok.svg</normaloff>:/BreezeLight/Icons/BreezeLight/dialog_ok.svg</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../../res/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
