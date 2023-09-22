@@ -40,7 +40,11 @@ public:
     bool  init(const PluginManager *manager);
 
 public slots:
+    /**
+     * @brief This Slot called when the splash screen was time out.
+     */
     void done();
+
 private:
     /**
      * @brief Pointer to the QSplashScreen object.
